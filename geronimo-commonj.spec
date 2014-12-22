@@ -1,9 +1,9 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name: geronimo-commonj
 Version: 1.1.0
-Release: 7.0%{?dist}
+Release: 10.0
 Summary: CommonJ Specification
-
+Group:	Development/Java
 License: ASL 2.0
 URL: http://geronimo.apache.org/
 
@@ -74,10 +74,7 @@ cp -rp target/site/apidocs/* %{buildroot}%{_javadocdir}/%{name}
 %add_maven_depmap JPP-%{name}.pom %{name}.jar
 
 
-%files
-%{_javadir}/*
-%{_mavenpomdir}/*
-%{_mavendepmapfragdir}/*
+%files -f .mfiles
 %doc LICENSE.txt
 %doc NOTICE.txt
 
