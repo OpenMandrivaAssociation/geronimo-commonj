@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name: geronimo-commonj
 Version: 1.1.0
-Release: 10.0
+Release: 10.1
 Summary: CommonJ Specification
 Group:	Development/Java
 License: ASL 2.0
