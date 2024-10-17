@@ -5,7 +5,7 @@ Release: 10.2
 Summary: CommonJ Specification
 Group:	Development/Java
 License: ASL 2.0
-URL: http://geronimo.apache.org/
+URL: https://geronimo.apache.org/
 
 # svn export https://svn.apache.org/repos/asf/geronimo/specs/tags/specs-1.4/geronimo-commonj_1.1_spec geronimo-commonj-1.1.0
 # tar cvfJ geronimo-commonj-1.1.0.tar.xz geronimo-commonj-1.1.0
